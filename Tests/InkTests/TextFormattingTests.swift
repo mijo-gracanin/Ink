@@ -125,7 +125,7 @@ final class TextFormattingTests: XCTestCase {
         > Three
         """)
 
-        XCTAssertEqual(html, "<blockquote><p>One Two Three</p></blockquote>")
+        XCTAssertEqual(html, "<blockquote><p>One</p><p>Two</p><p>Three</p></blockquote>")
     }
 
     func testEscapingSymbolsWithBackslash() {
